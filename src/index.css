@@ -1,1 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
 @import "tailwindcss";
+@theme{
+    --font-family-vt323: 'VT323', monospace;
+    --font-family-alt: 'Tilt Prism', cursive;
+}
