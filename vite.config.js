@@ -4,6 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 import { VitePWA } from 'vite-plugin-pwa'
 
 export default defineConfig({
+  base: '/TodoList-using-Redux',
   plugins: [
     react(),
     tailwindcss(),
@@ -23,8 +24,8 @@ export default defineConfig({
         },
         icons: [
           {
-            src: 'check-list128.png',
-            sizes: '128x128',
+            src: 'check-list192.png',
+            sizes: '192x192',
             type: 'image/png',
           },
           {
