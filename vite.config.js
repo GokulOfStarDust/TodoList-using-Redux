@@ -16,7 +16,7 @@ export default defineConfig({
         name: "TaskTracker - To-Do List",
         short_name: "TaskTracker",
         description: "Stay productive with TaskTracker, your minimalist to-do list app.",
-        start_url: "/",
+        start_url: "/TodoList-using-Redux/",
         display: "standalone",
         background_color: "#ffffff",
         theme_color: "#4f46e5",
