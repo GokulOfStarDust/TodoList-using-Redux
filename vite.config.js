@@ -11,12 +11,12 @@ export default defineConfig({
     VitePWA({
       registerType: 'autoUpdate',
       includeAssets: ['todoIcon.svg'],
-      scope: "/TodoList-using-Redux/",
       manifest: {
         name: "TaskTracker - To-Do List",
         short_name: "TaskTracker",
         description: "Stay productive with TaskTracker, your minimalist to-do list app.",
         start_url: "/TodoList-using-Redux/",
+          scope: "/TodoList-using-Redux/",
         display: "standalone",
         background_color: "#ffffff",
         theme_color: "#4f46e5",
