@@ -1,16 +1,5 @@
 {
-  "name": "English Department Aided PSGCAS",
-  "alias": "english-department-psgcas.vercel.app",
-  "rewrites": [{ "source": "/(.*)", "destination": "/" }],
-  "headers": [
-    {
-      "source": "/sitemap.xml",
-      "headers": [
-        {
-          "key": "Content-Type",
-          "value": "application/xml"
-        }
-      ]
-    }
-  ]
+  "name": "TodoList",
+  "alias": "",
+  "rewrites": [{ "source": "/(.*)", "destination": "/" }]
 }
