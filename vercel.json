@@ -1,5 +1,4 @@
 {
   "name": "TodoList",
-  "alias": "",
   "rewrites": [{ "source": "/(.*)", "destination": "/" }]
 }

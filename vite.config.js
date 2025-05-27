@@ -11,6 +11,7 @@ export default defineConfig({
     VitePWA({
       registerType: 'autoUpdate',
       includeAssets: ['todoIcon.svg'],
+      scope: "/TodoList-using-Redux/",
       manifest: {
         name: "TaskTracker - To-Do List",
         short_name: "TaskTracker",
