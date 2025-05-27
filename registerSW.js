@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/TodoList-using-Redux/sw.js', { scope: '/TodoList-using-Redux/' })})}
